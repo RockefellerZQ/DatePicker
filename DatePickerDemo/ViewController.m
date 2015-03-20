@@ -18,7 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [super viewDidLoad];
-    ZQDatePicker *picker = [[ZQDatePicker alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 40)];
+    ZQDatePicker *picker = [[ZQDatePicker alloc]
+                            initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 40)];
     picker.backgroundColor = [UIColor colorWithRed:107/255.0 green:90/255.0 blue:161/255.0 alpha:1];
     [picker setSelectedColor:[UIColor colorWithRed:141/255.0 green:141/255.0 blue:196/255.0 alpha:1]];
     [picker setCurrentDate:[NSDate date]];
